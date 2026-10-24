@@ -3,7 +3,7 @@
 
 # 🌌 Fili's Portfolio
 
-### Cosmic Aurora Experience
+### Retro Cosmic Aurora Experience
 
 **Portfolio web interaktif yang memadukan Desain Grafis, Web Graphics, dan Audio Teknologi.**
 
