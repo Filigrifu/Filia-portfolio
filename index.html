@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fili's portfolio</title>
+    <meta name="description" content="Personal portfolio of Fili - Graphic Design & Visual Creative featuring a Cosmic Aurora aesthetic.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="cosmic-aurora-bg" aria-hidden="true">
+        <div class="stars-overlay"></div>
+    </div>
+
+    <header class="cosmic-header hidden-header" id="main-header">
+        <a href="#about" class="header-logo" aria-label="Fili Portfolio Home">
+            <div class="logo-curtain-effect" aria-hidden="true"></div>
+            <span class="logo-text">Fili</span>
+        </a>
+
+        <button class="hamburger-btn" id="hamburger-btn" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
+            <span class="hamburger-bar"></span>
+            <span class="hamburger-bar"></span>
+            <span class="hamburger-bar"></span>
+        </button>
+
+        <nav class="navbar" id="main-nav" aria-label="Main Navigation">
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link active" id="nav-home">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link" id="nav-about">About</a></li>
+                <li class="nav-item"><a href="#works" class="nav-link" id="nav-works">Works</a></li>
+                <li class="nav-item"><a href="#playground" class="nav-link" id="nav-playground">Playground</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link" id="nav-contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+ 
+    <main>
+        <section id="home" class="home-hero-section">
+            <!-- Animated Starry Night Background Layer -->
+            <div class="starry-night-container" aria-hidden="true">
+                <div class="starry-nebula-glow"></div>
+                <div class="star-field" id="home-star-field"></div>
+                <div class="shooting-stars-wrapper">
+                    <div class="shooting-star meteor-1"></div>
+                    <div class="shooting-star meteor-2"></div>
+                    <div class="shooting-star meteor-3"></div>
+                    <div class="shooting-star meteor-4"></div>
+                </div>
+            </div>
+
+            <div class="home-content">
+                <h1 class="hero-welcome">
+                    <span class="typewriter-text" id="typewriter-title">WELCOME</span><span class="typewriter-cursor title-cursor" aria-hidden="true"></span>
+                </h1>
+                <div class="hero-subtitle">
+                    <span class="sparkle-icon" aria-hidden="true">✦</span>
+                    <span class="typewriter-text" id="typewriter-subtitle">to Fili’s Portfolio</span><span class="typewriter-cursor subtitle-cursor hidden" aria-hidden="true"></span>
+                    <span class="sparkle-icon" aria-hidden="true">✦</span>
+                </div>
+                <div class="hero-action">
+                    <a href="#about" id="explore-btn" class="hero-cta" aria-label="Explore to About section">
+                        <span>Explore</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section" aria-label="About Fili">
+            <div class="about-sticky-stage">
+                <!-- Upward Glowing Chevron Indicator (Scroll Up) -->
+                <button class="about-nav-trigger about-up-btn" id="about-up-btn" type="button" aria-label="Scroll to previous section">
+                    <svg class="about-chevron-svg" viewBox="0 0 32 20" fill="none" aria-hidden="true">
+                        <path d="M4 16 L16 4 L28 16" stroke="#00ffd5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+
+                <div class="about-profile-container">
+                    <!-- Left: Visual Photo / Showcase Frame with 3 state boxes -->
+                    <div class="about-photo-frame" aria-label="Visual showcase">
+                        <div class="profile-photo-box photo-step-0 active" data-step="0" aria-label="Foto Profil Fili">
+                            <img src="assets/images/about/about1.png" alt="Foto Profil Fili" class="profile-photo-img" decoding="async">
+                        </div>
+                        <div class="profile-photo-box photo-step-1 upcoming" data-step="1" aria-label="Foto Fili Graphic Design UPH">
+                            <img src="assets/images/about/about2.png" alt="Foto Fili Graphic Design" class="profile-photo-img" loading="lazy" decoding="async">
+                            <div class="photo-color-overlay cyan-overlay" aria-hidden="true"></div>
+                        </div>
+                        <div class="profile-photo-box photo-step-2 upcoming" data-step="2" aria-label="Foto Fili Apparel Design SMK1">
+                            <img src="assets/images/about/about3.png" alt="Foto Fili Apparel Design" class="profile-photo-img" loading="lazy" decoding="async">
+                            <div class="photo-color-overlay green-overlay" aria-hidden="true"></div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Content Deck containing the 3 steps -->
+                    <div class="about-text-deck">
+                        <!-- Step 1: Fili Profile & Tools -->
+                        <article class="about-step-content active" data-step="0" id="about-step-0">
+                            <h2 class="profile-name">Fili</h2>
+                            <p class="profile-bio">Sebagai desainer grafis saya masih belajar tentang pemecahan masalah dalam pembuatan konsep komunikasi visual yang memberi dampak.</p>
+                            <div class="profile-tools-row">
+                                <span class="tools-label">tools:</span>
+                                <div class="tools-badges">
+                                    <div class="tool-badge ai" title="Adobe Illustrator" aria-label="Adobe Illustrator"><span>Ai</span></div>
+                                    <div class="tool-badge ps" title="Adobe Photoshop" aria-label="Adobe Photoshop"><span>Ps</span></div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Step 2: Graphic Design (UPH) -->
+                        <article class="about-step-content upcoming" data-step="1" id="about-step-1">
+                            <span class="profile-period">2023 - today</span>
+                            <h2 class="profile-title">Graphic Design</h2>
+                            <p class="profile-institution">UPH</p>
+                            <p class="profile-bio">Babak baru dalam eksplorasi kreatif di desain grafis, dengan mendalami seni, branding, identitas visual, tipografi, dan komunikasi visual.</p>
+                            <p class="profile-internship"><span class="internship-label">internship:</span> SUNVisual</p>
+                        </article>
+
+                        <!-- Step 3: Apparel Design (SMK1 - SPU) -->
+                        <article class="about-step-content upcoming" data-step="2" id="about-step-2">
+                            <h2 class="profile-title">Apperal Design</h2>
+                            <p class="profile-institution">SMK1 - SPU</p>
+                            <p class="profile-bio">Pertemuan pertama saya dengan dunia desain. Desain busana dan dressmaking mengajarkan saya untuk mengubah konsep menjadi kenyataan.</p>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- Downward Glowing Chevron Indicator (Scroll Down) -->
+                <button class="about-nav-trigger about-down-btn" id="about-down-btn" type="button" aria-label="Scroll to next section">
+                    <svg class="about-chevron-svg" viewBox="0 0 32 20" fill="none" aria-hidden="true">
+                        <path d="M4 4 L16 16 L28 4" stroke="#00ffd5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Virtual Scroll Track (300vh total height for smooth scrolling across the 3 steps) -->
+            <div class="about-scroll-track" aria-hidden="true">
+                <div class="about-track-step" data-step="0"></div>
+                <div class="about-track-step" data-step="1"></div>
+                <div class="about-track-step" data-step="2"></div>
+            </div>
+        </section>
+
+        <section id="works" class="works-section" aria-label="Selected Works">
+            <h2 class="visually-hidden">Works</h2>
+            <div class="works-container">
+                <div class="works-grid">
+                    <!-- Project 1: Burgreens (Gallery: burgreens 1-4 only) -->
+                    <button class="work-card" type="button" data-index="0" 
+                        data-gallery='["assets/images/works/burgreens/burgreens1.png", "assets/images/works/burgreens/burgreens2.png", "assets/images/works/burgreens/burgreens3.png", "assets/images/works/burgreens/burgreens04.png"]' 
+                        id="work-burgreens">
+                        <span class="work-thumb">
+                            <img src="assets/images/works/burgreens/burgreensprev.png" alt="Burgreens Rebranding project" class="work-thumb-img" loading="lazy" decoding="async">
+                        </span>
+                        <span class="work-info">
+                            <span class="work-title">Burgreens</span>
+                            <span class="work-sub">Rebranding project</span>
+                            <span class="work-desc">makanan nabati untuk semua</span>
+                        </span>
+                    </button>
+
+                    <!-- Project 2: Snail-it -->
+                    <button class="work-card" type="button" data-index="1" 
+                        data-gallery='["assets/images/works/snailit/snailit01.png", "assets/images/works/snailit/snailit02.png", "assets/images/works/snailit/snailit03.png", "assets/images/works/snailit/snailit04.png"]' 
+                        id="work-snailit">
+                        <span class="work-thumb">
+                            <img src="assets/images/works/snailit/snailitprev.png" alt="Snail-it Branding project" class="work-thumb-img" loading="lazy" decoding="async">
+                        </span>
+                        <span class="work-info">
+                            <span class="work-title">Snail-it</span>
+                            <span class="work-sub">Branding project</span>
+                            <span class="work-desc">Untuk mereka yang berani coba!</span>
+                        </span>
+                    </button>
+
+                    <!-- Project 3: Photography -->
+                    <button class="work-card" type="button" data-index="2" 
+                        data-gallery='["assets/images/works/photography/photogrph01.jpg", "assets/images/works/photography/photogrph02.jpg", "assets/images/works/photography/photogrph03.jpg", "assets/images/works/photography/photogrph04.jpg"]' 
+                        id="work-photography">
+                        <span class="work-thumb">
+                            <img src="assets/images/works/photography/photogrph02.jpg" alt="Photography Group project" class="work-thumb-img" loading="lazy" decoding="async">
+                        </span>
+                        <span class="work-info">
+                            <span class="work-title">Photography</span>
+                            <span class="work-sub">Group project</span>
+                            <span class="work-desc">kumpulan fotografi</span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project viewer: opens when a work card is clicked -->
+        <dialog class="work-viewer" id="work-viewer" aria-label="Project viewer">
+            <button class="viewer-arrow prev" type="button" id="viewer-prev" aria-label="Previous slide">
+                <svg class="viewer-chevron-svg" viewBox="0 0 24 32" fill="none" aria-hidden="true">
+                    <path d="M16 6 L6 16 L16 26" stroke="#00ffd5" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+            <div class="viewer-frame" id="viewer-frame">
+                <img id="viewer-img" src="" alt="Project slide" class="viewer-img">
+            </div>
+            <button class="viewer-arrow next" type="button" id="viewer-next" aria-label="Next slide">
+                <svg class="viewer-chevron-svg" viewBox="0 0 24 32" fill="none" aria-hidden="true">
+                    <path d="M8 6 L18 16 L8 26" stroke="#00ffd5" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </dialog>
+
+        <!-- SECTION 4: PLAYGROUND (Photo Booth) -->
+        <section id="playground" class="playground-section">
+            <h2 class="playground-title">Photo Booth</h2>
+            
+            <div class="filmstrip-container">
+                <div class="filmstrip">
+                    <div class="filmstrip-frames">
+                        <div class="filmstrip-frame" id="frame-1">
+                            <span class="frame-placeholder">01</span>
+                            <video class="webcam-feed" playsinline muted style="display:none;"></video>
+                            <canvas class="webcam-canvas-feed" style="display:none;"></canvas>
+                        </div>
+                        <div class="filmstrip-frame" id="frame-2"><span class="frame-placeholder">02</span></div>
+                        <div class="filmstrip-frame" id="frame-3"><span class="frame-placeholder">03</span></div>
+                        <div class="filmstrip-frame" id="frame-4"><span class="frame-placeholder">04</span></div>
+                    </div>
+                    <div class="filmstrip-holes bottom">
+                        <span></span><span></span><span></span>
+                        <span></span><span></span><span></span>
+                        <span></span><span></span><span></span>
+                        <span></span><span></span><span></span>
+                    </div>
+                </div>
+
+                <div class="booth-controls">
+                    <button id="filter-toggle-btn" class="booth-btn filter-btn active" type="button" aria-label="Toggle Selective Green and Purple Filter" title="Filter: Green & Purple Only (Grayscale Others)">
+                        <span class="filter-indicator-dot"></span>
+                        <svg class="filter-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2v4m0 12v4M4.93 4.93l2.83 2.83m8.48 8.48l2.83 2.83M2 12h4m12 0h4M4.93 19.07l2.83-2.83m8.48-8.48l2.83-2.83"/>
+                            <circle cx="12" cy="12" r="3"></circle>
+                        </svg>
+                        <span class="filter-btn-label">Green &amp; Purple</span>
+                    </button>
+                    <button id="snap-btn" class="booth-btn camera-btn" type="button" aria-label="Take Photo">
+                        <svg class="camera-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="#0e091a" stroke-width="2.3">
+                            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                            <circle cx="12" cy="13" r="4"></circle>
+                        </svg>
+                    </button>
+                    <button id="download-strip-btn" class="booth-btn download-btn" type="button" aria-label="Download Photo Strip">
+                        <svg class="download-icon" viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="#ffffff" stroke-width="2.4">
+                            <path d="M12 4v11m-4-4l4 4 4-4M4 19h16" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 5: CONTACT (Interactive Flip Card) -->
+        <section id="contact" class="contact-section">
+            <div class="contact-flip-wrapper" id="contact-flipper">
+                <div class="contact-flip-inner">
+                    <!-- Front: Contact Information -->
+                    <div class="contact-front" id="contact-front-card">
+                        <h2 class="contact-heading">CONTACT  ME!</h2>
+                        <p class="contact-subtext">Whether it's a new project, a collaboration,<br>or simply an idea worth sharing—</p>
+                        <a href="mailto:Frifurareany@gmail.com" class="contact-email-link" id="contact-direct-email">Frifurareany@gmail.com</a>
+                        <span class="flip-hint">// Click to flip and write message //</span>
+                    </div>
+
+                    <!-- Back: Write your message here! Form Box -->
+                    <div class="contact-back">
+                        <h3 class="message-heading">Write your message here!</h3>
+                        <form class="retro-message-box" id="contact-message-form">
+                            <div class="retro-input-wrapper">
+                                <input type="text" class="retro-field" id="msg-name" placeholder="Name" required autocomplete="off">
+                            </div>
+                            <div class="retro-input-wrapper">
+                                <input type="email" class="retro-field" id="msg-email" placeholder="Email" required autocomplete="off">
+                            </div>
+                            <div class="retro-input-wrapper textarea-wrapper">
+                                <textarea class="retro-field retro-textarea" id="msg-text" placeholder="Your message..." rows="6" required></textarea>
+                            </div>
+                            <div class="retro-form-actions">
+                                <button type="submit" class="retro-submit-btn">Send</button>
+                            </div>
+                        </form>
+                        <span class="flip-hint">// Click outside to flip back //</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Script -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
